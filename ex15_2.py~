@@ -1,0 +1,7 @@
+#-*- coding:utf-8 -*-
+
+file_again=raw_input(">")
+# also we can get the filename through raw_input 
+txt_again=open(file_again)
+
+print txt_again.read()
